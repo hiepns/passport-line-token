@@ -1,0 +1,39 @@
+{
+  "name": "passport-line-token",
+  "version": "1.0.0",
+  "description": "Line token authentication strategy for Passport",
+  "main": "lib/index.js",
+  "scripts": {
+    "compile": "babel src --out-dir lib",
+    "prepublish": "npm run compile"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/hiepns/passport-line-token.git"
+  },
+  "keywords": [
+    "passport",
+    "line",
+    "auth"
+  ],
+  "author": {
+    "name": "Shin",
+    "email": "hiepnsx@gmail.com",
+    "url": "https://hiepns.com"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "http://github.com/hiepns/passport-line-token/issues"
+  },
+  "dependencies": {
+    "passport-oauth": "1.0.0"
+  },
+  "devDependencies": {
+    "babel-cli": "6.26.0",
+    "chai": "4.1.2",
+    "chai-passport-strategy": "1.0.1",
+    "istanbul": "0.4.5",
+    "mocha": "5.2.0",
+    "sinon": "6.3.3"
+  }
+}
